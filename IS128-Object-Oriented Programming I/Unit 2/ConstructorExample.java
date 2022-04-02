@@ -1,4 +1,4 @@
-public class Box
+class Box
 {
     private final String brandName = "Big Box Comp";
     private int width;

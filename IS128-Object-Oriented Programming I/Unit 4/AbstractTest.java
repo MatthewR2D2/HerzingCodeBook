@@ -1,13 +1,13 @@
-abstract class Animal 
+abstract class AnimalABST
 {
     abstract void noise();
 }
 
-class Dog extends Animal
+class DogTest extends AnimalABST
 {
     void noise(){System.out.println("Woof");}
 }
-class Cat extends Animal
+class CatTest extends AnimalABST
 {
     void noise(){System.out.println("Meow");}
 }
@@ -15,8 +15,8 @@ class Cat extends Animal
 public class AbstractTest {
     public static void main(String args[])
     {
-        Dog dog = new Dog();
-        Cat cat = new Cat();
+        DogTest dog = new DogTest();
+        CatTest cat = new CatTest();
         dog.noise();
         cat.noise();
     }

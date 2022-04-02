@@ -4,6 +4,5 @@ public class ConsoleInput {
     System.out.println("Enter your Name");
     String myName = System.console().readLine();
     System.out.println("Your Name is: " + myName);
-}
-    
+    }
 }
